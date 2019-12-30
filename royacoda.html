@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Code Player</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" type="text/css" href="royacoda.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="jquery-3.1.1.js"></script>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="navbar">
+			<h3>ROYACODA</h3>
+			<button id="runBtn">Run</button>
+			<div id="ctrlBtn">
+				<button class="toggle chosen" style="border-radius: 10px 0 0 10px; margin:0 -1px 0 0;">HTML</button>
+				<button class="toggle">CSS</button>
+				<button class="toggle">JS</button>
+				<button  class="toggle chosen" style="border-radius: 0 10px 10px 0;">Result</button>             
+			</div>2
+		</div>
+		<div class="clear"></div>
+		<div id="workSheet">
+			<div class="codeSheet" id="HTMLSheet">
+				<span class="sheetLabel">HTML</span>
+				<textarea id="htmlCode"></textarea>
+			</div>
+			<div class="codeSheet" id="CSSSheet">
+				<span class="sheetLabel">CSS</span>
+				<textarea id="cssCode"></textarea>
+			</div>
+			<div class="codeSheet" id="JSSheet">
+				<span class="sheetLabel">JS</span>
+				<textarea id="jsCode"></textarea>
+			</div>
+			<div class="codeSheet" id="ResultSheet">
+				<span class="sheetLabel">Result</span>
+				<iframe id="myresult"></iframe>
+			</div>
+		</div>
+	</div>
+	<script src="royacoda.js"></script>
+	<script>
+
+	</script>
+</body>
+</html>
